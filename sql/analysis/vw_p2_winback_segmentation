@@ -1,0 +1,41 @@
+/* ============================================================================
+   View: core.vw_p2_winback_segmentation (Optimized)
+   Pillar: 2. Customer Intelligence (Loyalty & Retention)
+   Performance: Replaced Cross Join with Window Function to prevent 
+                redundant scans of the journey view.
+============================================================================ */
+
+CREATE OR REPLACE VIEW core.vw_p2_winback_segmentation AS
+
+WITH rfm_metrics_indexed AS (
+    -- Step 1: Use a window function to get the global average in one pass
+    SELECT 
+        *,
+        AVG(total_lifetime_revenue) OVER() AS global_avg_ltv
+    FROM core.vw_p2_customer_journey
+)
+
+-- Step 2: Single filter pass
+SELECT 
+    customer_unique_id,
+    customer_city,
+    customer_state,
+    first_order_date,
+    recent_order_date,
+    recency_days,
+    first_order_review_score,
+    total_lifetime_revenue AS potential_recovery_value,
+    total_lifetime_orders,
+    
+    CASE 
+        WHEN is_repeat_buyer = 1 THEN 'High Priority: Lapsed Loyal'
+        ELSE 'Medium Priority: Lapsed One-Time'
+    END AS recovery_priority
+
+FROM rfm_metrics_indexed
+WHERE 
+    is_churned = 1 
+    AND first_order_review_score >= 4
+    AND total_lifetime_revenue > global_avg_ltv
+
+ORDER BY potential_recovery_value DESC;
