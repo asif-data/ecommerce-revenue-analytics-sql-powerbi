@@ -1,0 +1,75 @@
+"product_category","total_revenue","total_orders","revenue_segment","avg_review_score","toxicity_ratio_pct","matrix_position","lifecycle_status"
+health_beauty,1441248.07,8836,Pareto Driver (Top 80%),4.14,11.21,Core Strengths,Stable
+watches_gifts,1305541.61,5624,Pareto Driver (Top 80%),4.02,12.64,Core Strengths,Declining
+bed_bath_table,1241681.72,9417,Pareto Driver (Top 80%),3.90,14.30,Underperformers,Declining
+sports_leisure,1156656.48,7720,Pareto Driver (Top 80%),4.11,11.90,Core Strengths,Declining
+computers_accessories,1059272.40,6689,Pareto Driver (Top 80%),3.93,14.79,Underperformers,Declining
+furniture_decor,902511.79,6449,Pareto Driver (Top 80%),3.91,14.87,Underperformers,Declining
+housewares,778397.77,5884,Pareto Driver (Top 80%),4.05,12.04,Core Strengths,Stable
+cool_stuff,719329.95,3632,Pareto Driver (Top 80%),4.15,9.97,Core Strengths,Declining
+auto,685384.32,3897,Pareto Driver (Top 80%),4.06,11.74,Core Strengths,Stable
+garden_tools,584219.21,3518,Pareto Driver (Top 80%),4.05,12.70,Core Strengths,Declining
+toys,561372.55,3886,Pareto Driver (Top 80%),4.16,10.97,Core Strengths,Declining
+baby,480118.00,2885,Pareto Driver (Top 80%),4.01,13.36,Core Strengths,Declining
+perfumery,453338.71,3162,Pareto Driver (Top 80%),4.17,11.37,Core Strengths,Stable
+telephony,394883.32,4199,Pareto Driver (Top 80%),3.95,12.85,Underperformers,Emerging
+office_furniture,342532.65,1273,Pareto Driver (Top 80%),3.49,21.11,Revenue Traps,Declining
+stationery,277741.71,2311,Pareto Driver (Top 80%),4.20,9.76,Core Strengths,Emerging
+pet_shop,253876.65,1710,Pareto Driver (Top 80%),4.18,9.91,Core Strengths,Emerging
+computers,232799.43,181,Long Tail,4.18,12.00,Core Strengths,Emerging
+musical_instruments,210137.37,628,Long Tail,4.15,10.09,Niche Winners,Declining
+"",207705.09,1451,Long Tail,3.84,18.06,Underperformers,Declining
+electronics,206825.06,2550,Long Tail,4.04,11.79,Niche Winners,Declining
+small_appliances,206668.83,630,Long Tail,4.15,11.14,Niche Winners,Declining
+fashion_bags_accessories,184273.54,1864,Long Tail,4.15,10.15,Niche Winners,Declining
+consoles_games,177293.24,1062,Long Tail,4.02,12.34,Niche Winners,Stable
+luggage_accessories,170875.21,1034,Long Tail,4.32,7.35,Niche Winners,Declining
+construction_tools_construction,165328.00,748,Long Tail,4.05,11.90,Niche Winners,Emerging
+home_appliances_2,123917.92,234,Long Tail,4.14,8.90,Niche Winners,Declining
+home_construction,96920.36,490,Long Tail,3.94,11.69,Underperformers,Declining
+home_appliances,94990.43,764,Long Tail,4.17,10.16,Niche Winners,Declining
+furniture_living_room,86884.73,422,Long Tail,3.90,13.45,Underperformers,Emerging
+agro_industry_and_commerce,78374.07,182,Long Tail,4.00,12.74,Niche Winners,Emerging
+home_confort,67073.27,397,Long Tail,3.83,16.20,Underperformers,Declining
+fixed_telephony,64220.81,217,Long Tail,3.68,19.16,Underperformers,Emerging
+air_conditioning,61774.19,253,Long Tail,3.97,15.07,Underperformers,Emerging
+kitchen_dining_laundry_garden_furniture,58327.80,248,Long Tail,3.97,13.26,Underperformers,Stable
+audio,56398.94,350,Long Tail,3.83,16.39,Underperformers,Declining
+books_general_interest,56052.40,512,Long Tail,4.45,7.10,Niche Winners,Declining
+small_appliances_home_oven_and_coffee,50193.57,75,Long Tail,4.30,9.21,Niche Winners,Declining
+construction_tools_lights,48663.80,244,Long Tail,4.05,8.81,Niche Winners,Emerging
+industry_commerce_and_business,47554.29,235,Long Tail,4.10,10.19,Niche Winners,Declining
+construction_tools_safety,44463.62,167,Long Tail,3.84,18.13,Underperformers,Declining
+food,36664.44,450,Long Tail,4.22,10.30,Niche Winners,Emerging
+market_place,33834.53,280,Long Tail,4.02,11.33,Niche Winners,Declining
+costruction_tools_garden,31027.29,194,Long Tail,4.05,13.45,Niche Winners,Emerging
+fashion_shoes,28481.64,240,Long Tail,4.24,8.53,Niche Winners,Declining
+art,28247.81,202,Long Tail,3.94,14.98,Underperformers,Stable
+drinks,28169.95,297,Long Tail,4.04,12.87,Niche Winners,Declining
+signaling_and_security,28017.05,140,Long Tail,4.09,10.15,Niche Winners,Emerging
+furniture_bedroom,24661.01,95,Long Tail,4.11,12.84,Niche Winners,Emerging
+books_technical,23379.12,260,Long Tail,4.36,8.33,Niche Winners,Declining
+food_drink,19687.47,227,Long Tail,4.31,6.14,Niche Winners,Declining
+costruction_tools_tools,17934.17,97,Long Tail,4.44,8.08,Niche Winners,Emerging
+fashion_male_clothing,12950.23,112,Long Tail,3.64,25.95,Underperformers,Emerging
+christmas_supplies,12030.12,128,Long Tail,4.02,13.01,Niche Winners,Stable
+fashion_underwear_beach,11457.74,121,Long Tail,3.98,11.54,Underperformers,Declining
+tablets_printing_image,8754.61,79,Long Tail,4.12,6.17,Niche Winners,Declining
+cine_photo,8189.66,65,Long Tail,4.19,12.50,Niche Winners,Declining
+dvds_blu_ray,7288.13,59,Long Tail,4.08,15.87,Niche Winners,Declining
+music,6724.86,38,Long Tail,4.21,10.53,Niche Winners,Declining
+furniture_mattress_and_upholstery,5998.54,38,Long Tail,3.82,18.42,Underperformers,Declining
+books_imported,5409.70,53,Long Tail,4.40,10.00,Niche Winners,Emerging
+party_supplies,5313.15,39,Long Tail,3.77,18.60,Underperformers,Emerging
+portateis_cozinha_e_preparadores_de_alimentos,4278.29,14,Long Tail,3.27,20.00,Underperformers,Stable
+fashio_female_clothing,3425.39,39,Long Tail,3.78,10.42,Underperformers,Declining
+fashion_sport,2697.64,27,Long Tail,4.23,6.67,Niche Winners,Declining
+la_cuisine,2388.54,13,Long Tail,4.00,23.08,Niche Winners,Declining
+arts_and_craftmanship,2184.14,23,Long Tail,4.13,12.50,Niche Winners,Emerging
+diapers_and_hygiene,2141.27,27,Long Tail,3.26,25.64,Underperformers,Stable
+pc_gamer,1679.52,8,Long Tail,3.33,33.33,Underperformers,New
+flowers,1598.91,29,Long Tail,4.42,6.45,Niche Winners,Declining
+home_comfort_2,1170.58,24,Long Tail,3.63,22.22,Underperformers,Emerging
+cds_dvds_musicals,954.99,12,Long Tail,4.64,0.00,Niche Winners,Declining
+fashion_childrens_clothes,665.36,8,Long Tail,4.50,12.50,Niche Winners,Declining
+security_and_services,324.51,2,Long Tail,2.50,50.00,Underperformers,New
